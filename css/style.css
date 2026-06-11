@@ -1,0 +1,218 @@
+/* Основной фон и шрифты для всего документа */
+body {
+    background-color: #0d0d0d;
+    color: #d5ff69;
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Центрирование контента */
+.d-flex {
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.vh-100 {
+    min-height: 100vh;
+}
+
+/* Текст по центру */
+.text-center {
+    text-align: center;
+}
+
+/* Заголовки */
+h1, h2 {
+    color:  #d5ff69;;
+    text-align: center;
+}
+
+/* Панель навигации */
+.navbar {
+    border-bottom: 2px solid  #d5ff69;;
+}
+
+/* Отступ справа и ширина логотипа */
+.me-2 {
+    width: 5%;
+}
+
+/* Изображения */
+.hacker-img {
+    max-width: 50%;
+    height: auto;
+    border: 2px solid  #d5ff69;;
+    box-shadow: 0 0 10px  #d5ff69;;
+}
+
+/* Блок истории */
+.story-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+/* Текст истории */
+.story-text {
+    max-width: 50%;
+    text-align: left;
+}
+
+/* Зеленые кнопки */
+.btn-primary {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn-primary:hover {
+    background-color: #2e7d32;
+    color: white;
+}
+
+/* Поля ввода */
+.hacker-input {
+    background-color: #0d0d0d;
+    border: 1px solid  #d5ff69;;
+    color:  #d5ff69;
+    padding: 0.5rem;
+    font-family: 'Courier New', monospace;
+}
+
+.hacker-input::placeholder {
+    color: #4caf50;
+    opacity: 0.7;
+}
+
+.hacker-input:focus {
+    background-color: #0d0d0d;
+    border-color: #2e7d32;
+    box-shadow: 0 0 5px  #d5ff69;;
+    color:  #d5ff69;;
+    outline: none;
+}
+
+/* Стили для полей ввода на странице регистрации */
+.form-control-hacker-input {
+    padding: 10px;
+    border: 1px solid  #d5ff69;;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 16px;
+}
+
+.form-control-hacker-input:focus {
+    outline: none;
+    border-color: #2e7d32;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+/* Группа формы */
+.form-group {
+    margin-bottom: 1rem;
+}
+
+/* Метки полей форм */
+.form-label {
+    color: #4caf50;
+    margin-bottom: 0.5rem;
+}
+
+/* Форма - поля друг под другом */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Отступы */
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.gap-3 {
+    gap: 1rem;
+}
+
+/* Красная кнопка выхода (оставлена как была) */
+.btn-outline-danger {
+    border-color: #dc3545;
+    color: #dc3545;
+    transition: all 0.3s ease;
+}
+
+.btn-outline-danger:hover {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Поле загрузки файла */
+.hacker-input[type="file"] {
+    padding: 0.5rem;
+    border: 1px solid #4caf50;
+    color: #4caf50;
+    background-color: #0d0d0d;
+    font-family: 'Courier New', monospace;
+}
+
+.hacker-input[type="file"]::file-selector-button {
+    background-color: #4caf50;
+    border: none;
+    color: #0d0d0d;
+    padding: 0.5rem 1rem;
+    font-family: 'Courier New', monospace;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.hacker-input[type="file"]::file-selector-button:hover {
+    background-color: #2e7d32;
+}
+
+/* Стили для навигационной панели */
+.navbar {
+    border-bottom: 2px solid #4caf50;
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    text-decoration: none;
+}
+
+.navbar-brand img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navbar-brand .text-light {
+    color: #4caf50 !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.me-2 {
+    margin-right: 10px;
+}
